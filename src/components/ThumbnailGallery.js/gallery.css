@@ -1,0 +1,35 @@
+.thumbnail-gallery{
+    display: flex;
+    background-color: #ffffff;
+    max-width:1200px;
+    height:500px;
+    width:90%;
+    margin:40px auto;
+}
+.left-side ,.right-side{
+    flex: 1;
+}
+.right-side{
+    padding: 40px;
+}
+.active-window{
+    background-color: #eee;
+    width:100%;
+    position: relative;
+    height:65%;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+.thumbnail-grid{
+    display: flex;
+    background-color: rosybrown;
+    height: 35%;
+    flex-wrap: wrap;
+}
+.thumbnails{
+  width:25%;
+  height: 50%;
+  background-color: yellow;
+}
